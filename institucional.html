@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institucional | DG Abogados y Asociados</title>
+    <meta name="description" content="Conozca la misión, visión, valores y marco legal de DG Abogados y Asociados, firma jurídica de élite en Valledupar, Colombia.">
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "navy-dark":"#020C1B","navy-light":"#112240",
+              "gold":"#e9c349","gold-light":"#F3E5AB","gold-muted":"#997A00",
+              "text-light":"#CCD6F6","text-muted":"#666666","border-subtle":"#DDDDDD",
+              "surface":"#fbf9f8","surface-low":"#f6f3f2","surface-mid":"#f0eded",
+              "on-surface":"#1b1c1c","on-surface-var":"#44474d",
+            },
+            fontFamily:{ display:["Playfair Display","serif"], body:["Inter","sans-serif"] },
+            maxWidth:{ site:"1200px" },
+          },
+        },
+      }
+    </script>
+    <style>
+        .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 300,'GRAD' 0,'opsz' 24;}
+        .gold-line::after{content:'';display:block;width:60px;height:3px;background:#e9c349;margin-top:1rem;}
+        ::-webkit-scrollbar{width:8px;}
+        ::-webkit-scrollbar-track{background:#020C1B;}
+        ::-webkit-scrollbar-thumb{background:#735c00;border-radius:4px;}
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body">
+
+<!-- NAV -->
+<nav class="fixed w-full top-0 z-50 bg-navy-dark/95 backdrop-blur-sm border-b border-white/10 transition-all duration-300 py-4" id="navbar">
+    <div class="max-w-site mx-auto px-8 flex justify-between items-center">
+        <a href="index.html" class="flex items-center gap-4">
+            <img src="assets/images/logo.png" alt="DG Abogados" class="h-10 w-auto">
+            <span class="hidden md:block text-xs font-bold tracking-widest text-gold uppercase">Abogados y Asociados</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+            <a href="index.html" class="text-text-light hover:text-gold transition-colors text-xs font-bold tracking-widest uppercase">Inicio</a>
+            <a href="institucional.html" class="text-gold border-b border-gold pb-0.5 text-xs font-bold tracking-widest uppercase">Institucional</a>
+            <a href="index.html#practice-areas" class="text-text-light hover:text-gold transition-colors text-xs font-bold tracking-widest uppercase">Práctica</a>
+            <a href="noticias.html" class="text-text-light hover:text-gold transition-colors text-xs font-bold tracking-widest uppercase">Noticias</a>
+            <a href="index.html#contact" class="text-text-light hover:text-gold transition-colors text-xs font-bold tracking-widest uppercase">Contacto</a>
+        </div>
+        <div class="flex items-center gap-3">
+            <a href="index.html#contact" class="bg-gold text-navy-dark px-6 py-2 text-xs font-bold rounded hover:bg-gold-light transition-all">Consúltenos</a>
+            <button class="md:hidden text-text-light p-1" id="mobile-btn" aria-label="Menú">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </button>
+        </div>
+    </div>
+    <div class="hidden md:hidden bg-navy-dark border-t border-white/10 mt-4" id="mobile-menu">
+        <div class="px-8 py-6 flex flex-col gap-5">
+            <a href="index.html" class="text-text-light hover:text-gold text-xs font-bold tracking-widest uppercase">Inicio</a>
+            <a href="institucional.html" class="text-gold text-xs font-bold tracking-widest uppercase">Institucional</a>
+            <a href="index.html#practice-areas" class="text-text-light hover:text-gold text-xs font-bold tracking-widest uppercase">Áreas de Práctica</a>
+            <a href="noticias.html" class="text-text-light hover:text-gold text-xs font-bold tracking-widest uppercase">Noticias</a>
+            <a href="index.html#contact" class="text-text-light hover:text-gold text-xs font-bold tracking-widest uppercase">Contacto</a>
+            <a href="index.html#contact" class="bg-gold text-navy-dark px-6 py-3 text-xs font-bold text-center rounded">Consúltenos</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="relative pt-40 pb-24 bg-navy-dark overflow-hidden">
+    <div class="absolute inset-0 opacity-20" style="background-image:url('https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?q=80&w=1600&auto=format&fit=crop');background-size:cover;background-position:center;"></div>
+    <div class="relative max-w-site mx-auto px-8">
+        <span class="text-gold text-xs font-bold tracking-widest uppercase mb-4 block">Nuestra Identidad</span>
+        <h1 class="font-display text-5xl md:text-7xl text-white mb-6 leading-tight">Perfil <span class="text-gold">Institucional</span></h1>
+        <p class="text-text-light/80 text-lg max-w-2xl leading-relaxed">Forjando excelencia legal a través de precisión arquitectónica, confiabilidad estratégica y un compromiso inquebrantable con el éxito de nuestros clientes.</p>
+    </div>
+</header>
+
+<!-- MISSION / VISION / VALUES -->
+<section class="py-24 bg-surface" id="institutional-profile">
+    <div class="max-w-site mx-auto px-8">
+        <div class="mb-16">
+            <h2 class="font-display text-4xl text-navy-dark gold-line">Identidad y Propósito</h2>
+            <p class="text-text-muted mt-6 text-sm">Nuestros pilares fundamentales definen cada estrategia que diseñamos y cada caso que resolvemos.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+            <!-- Mission -->
+            <div class="md:col-span-7 bg-white p-10 border border-border-subtle hover:border-gold transition-colors flex flex-col justify-between">
+                <div>
+                    <span class="material-symbols-outlined text-gold text-4xl mb-4 block">gavel</span>
+                    <h3 class="font-display text-3xl text-navy-dark mb-4">Nuestra Misión</h3>
+                    <p class="text-on-surface-var leading-relaxed text-lg">Proporcionar a personas naturales y entidades corporativas una asesoría jurídica de alto nivel que trascienda la abogacía tradicional. Somos arquitectos de la seguridad legal de nuestros clientes, garantizando precisión en cada contrato y resiliencia en cada disputa.</p>
+                </div>
+            </div>
+            <!-- Vision -->
+            <div class="md:col-span-5 bg-navy-dark p-10 flex flex-col justify-center text-white relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <span class="material-symbols-outlined text-9xl">visibility</span>
+                </div>
+                <h3 class="font-display text-3xl mb-4 text-gold">Nuestra Visión</h3>
+                <p class="text-text-light/90 leading-relaxed">Ser reconocidos como el referente de excelencia legal en la región, distinguidos por el rigor estratégico y la profundidad de nuestras soluciones jurídicas.</p>
+            </div>
+            <!-- Values -->
+            <div class="md:col-span-12 grid grid-cols-1 md:grid-cols-4 gap-6 mt-4">
+                <div class="p-6 bg-surface-low border border-border-subtle flex flex-col items-center text-center hover:border-gold transition-colors">
+                    <span class="material-symbols-outlined text-gold mb-3">verified</span>
+                    <h4 class="text-xs font-bold text-navy-dark uppercase tracking-wider mb-2">Integridad</h4>
+                    <p class="text-xs text-text-muted leading-relaxed">Estándares éticos inquebrantables en cada transacción.</p>
+                </div>
+                <div class="p-6 bg-surface-low border border-border-subtle flex flex-col items-center text-center hover:border-gold transition-colors">
+                    <span class="material-symbols-outlined text-gold mb-3">precision_manufacturing</span>
+                    <h4 class="text-xs font-bold text-navy-dark uppercase tracking-wider mb-2">Precisión</h4>
+                    <p class="text-xs text-text-muted leading-relaxed">Atención meticulosa al detalle en la redacción legal.</p>
+                </div>
+                <div class="p-6 bg-surface-low border border-border-subtle flex flex-col items-center text-center hover:border-gold transition-colors">
+                    <span class="material-symbols-outlined text-gold mb-3">shield</span>
+                    <h4 class="text-xs font-bold text-navy-dark uppercase tracking-wider mb-2">Confiabilidad</h4>
+                    <p class="text-xs text-text-muted leading-relaxed">Consistencia estratégica en la que nuestros clientes confían.</p>
+                </div>
+                <div class="p-6 bg-surface-low border border-border-subtle flex flex-col items-center text-center hover:border-gold transition-colors">
+                    <span class="material-symbols-outlined text-gold mb-3">account_balance</span>
+                    <h4 class="text-xs font-bold text-navy-dark uppercase tracking-wider mb-2">Prestigio</h4>
+                    <p class="text-xs text-text-muted leading-relaxed">Mantenemos la más alta reputación corporativa y profesional.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- LEGAL FRAMEWORK -->
+<section class="py-24 bg-surface-low">
+    <div class="max-w-site mx-auto px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
+            <!-- Sidebar -->
+            <div class="lg:col-span-1">
+                <div class="sticky top-28">
+                    <h2 class="font-display text-3xl text-navy-dark gold-line mb-10">Marco Legal</h2>
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="#tos" class="flex items-center gap-3 text-xs font-bold text-navy-dark hover:text-gold-muted transition-colors group uppercase tracking-wider">
+                                <span class="w-8 h-px bg-border-subtle group-hover:bg-gold transition-colors"></span>Términos de Servicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#privacy" class="flex items-center gap-3 text-xs font-bold text-navy-dark hover:text-gold-muted transition-colors group uppercase tracking-wider">
+                                <span class="w-8 h-px bg-border-subtle group-hover:bg-gold transition-colors"></span>Política de Privacidad
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#cookies" class="flex items-center gap-3 text-xs font-bold text-navy-dark hover:text-gold-muted transition-colors group uppercase tracking-wider">
+                                <span class="w-8 h-px bg-border-subtle group-hover:bg-gold transition-colors"></span>Política de Cookies
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="mt-12 p-6 bg-navy-dark text-white">
+                        <h4 class="text-xs font-bold text-gold uppercase tracking-widest mb-3">¿Tiene Preguntas?</h4>
+                        <p class="text-xs text-text-light/70 mb-4 leading-relaxed">Contáctenos para cualquier consulta sobre nuestros términos o políticas.</p>
+                        <a href="index.html#contact" class="block text-center bg-gold text-navy-dark px-4 py-3 text-xs font-bold hover:bg-gold-light transition-all uppercase tracking-wider">Contactar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="lg:col-span-2 space-y-16">
+                <!-- ToS -->
+                <article id="tos">
+                    <h3 class="font-display text-3xl text-navy-dark mb-6 pb-4 border-b border-border-subtle">Términos de Servicio</h3>
+                    <div class="space-y-6 text-on-surface-var text-sm leading-relaxed">
+                        <p>Bienvenido a DG Abogados y Asociados. Al acceder a nuestro sitio web y utilizar nuestros servicios, usted acepta quedar vinculado por los siguientes términos y condiciones.</p>
+                        <h4 class="font-bold text-navy-dark text-base">1. Aviso Legal sobre Asesoría</h4>
+                        <p>La información proporcionada en este sitio web no constituye, ni pretende constituir, asesoramiento legal. Todo el contenido disponible tiene carácter meramente informativo. La información puede no reflejar los desarrollos legales más recientes.</p>
+                        <h4 class="font-bold text-navy-dark text-base">2. Relación Abogado-Cliente</h4>
+                        <p>Ni la recepción de información presentada en este sitio, ni ningún correo electrónico u otra comunicación electrónica enviada a DG Abogados y Asociados a través de este sitio, creará una relación abogado-cliente.</p>
+                        <h4 class="font-bold text-navy-dark text-base">3. Propiedad Intelectual</h4>
+                        <p>El contenido, organización, gráficos, diseño y otros elementos relacionados con el Sitio están protegidos por derechos de autor, marcas registradas y otros derechos de propiedad aplicables. Su copia, redistribución o uso no autorizado está estrictamente prohibido.</p>
+                        <h4 class="font-bold text-navy-dark text-base">4. Limitación de Responsabilidad</h4>
+                        <p>DG Abogados y Asociados no será responsable de ningún daño directo, indirecto, incidental, especial o consecuente que resulte del uso o la imposibilidad de uso de nuestros servicios o del contenido de este sitio web.</p>
+                    </div>
+                </article>
+                <!-- Privacy -->
+                <article id="privacy">
+                    <h3 class="font-display text-3xl text-navy-dark mb-6 pb-4 border-b border-border-subtle">Política de Privacidad</h3>
+                    <div class="space-y-6 text-on-surface-var text-sm leading-relaxed">
+                        <p>En DG Abogados y Asociados, priorizamos la confidencialidad y seguridad de los datos personales de nuestros clientes y visitantes. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos su información.</p>
+                        <h4 class="font-bold text-navy-dark text-base">1. Recopilación de Información</h4>
+                        <p>Recopilamos información personal que usted nos proporciona voluntariamente al expresar interés en obtener información sobre nuestros servicios, al participar en actividades del sitio web, o al contactarnos directamente.</p>
+                        <h4 class="font-bold text-navy-dark text-base">2. Uso de la Información</h4>
+                        <p>Utilizamos la información personal recopilada para diversos fines empresariales, incluidos la prestación de servicios, la respuesta a consultas de usuarios, el envío de información administrativa y el cumplimiento de obligaciones legales.</p>
+                        <h4 class="font-bold text-navy-dark text-base">3. Seguridad de los Datos</h4>
+                        <p>Implementamos diversas medidas de seguridad para mantener la seguridad de su información personal. Utilizamos medidas de seguridad administrativas, técnicas y físicas para proteger su información personal.</p>
+                        <div class="p-6 bg-white border-l-4 border-gold text-xs italic text-text-muted">
+                            Última actualización: Enero 2026. DG Abogados y Asociados se reserva el derecho de modificar estas políticas en cualquier momento mediante notificación a través de este sitio.
+                        </div>
+                    </div>
+                </article>
+                <!-- Cookies -->
+                <article id="cookies">
+                    <h3 class="font-display text-3xl text-navy-dark mb-6 pb-4 border-b border-border-subtle">Política de Cookies</h3>
+                    <div class="space-y-6 text-on-surface-var text-sm leading-relaxed">
+                        <p>Este sitio web utiliza cookies para mejorar su experiencia de navegación. Al continuar utilizando nuestro sitio, usted acepta el uso de cookies de acuerdo con esta política.</p>
+                        <h4 class="font-bold text-navy-dark text-base">1. ¿Qué son las Cookies?</h4>
+                        <p>Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita nuestro sitio web. Nos permiten recordar sus preferencias y mejorar su experiencia en visitas futuras.</p>
+                        <h4 class="font-bold text-navy-dark text-base">2. Tipos de Cookies que Usamos</h4>
+                        <p>Utilizamos cookies esenciales para el funcionamiento del sitio, cookies analíticas para entender cómo los visitantes interactúan con el contenido, y cookies de preferencias para recordar sus configuraciones.</p>
+                        <h4 class="font-bold text-navy-dark text-base">3. Control de Cookies</h4>
+                        <p>Puede controlar y/o eliminar las cookies según sus preferencias. Puede eliminar todas las cookies que ya están en su dispositivo y configurar la mayoría de los navegadores para evitar que se coloquen.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-navy-dark text-text-light/60 border-t border-white/10">
+    <div class="max-w-site mx-auto px-8 py-24 grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+            <img src="assets/images/logo.png" alt="DG Abogados" class="h-12 w-auto mb-6">
+            <h3 class="font-display text-lg text-gold mb-2">DG Abogados y Asociados</h3>
+            <p class="text-xs leading-relaxed mb-6">Liderazgo legal con visión estratégica. Protegiendo su futuro desde el presente.</p>
+        </div>
+        <div>
+            <h4 class="text-xs font-bold text-gold mb-6 uppercase tracking-widest">Áreas de Práctica</h4>
+            <ul class="space-y-3 text-xs uppercase tracking-wider">
+                <li><a href="index.html#practice-areas" class="hover:text-text-light transition-colors">Contratación Estatal</a></li>
+                <li><a href="index.html#practice-areas" class="hover:text-text-light transition-colors">Derecho Administrativo</a></li>
+                <li><a href="index.html#practice-areas" class="hover:text-text-light transition-colors">Derecho Civil</a></li>
+                <li><a href="index.html#practice-areas" class="hover:text-text-light transition-colors">Derecho Tributario</a></li>
+                <li><a href="index.html#practice-areas" class="hover:text-text-light transition-colors">Derecho Laboral</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-xs font-bold text-gold mb-6 uppercase tracking-widest">Institucional</h4>
+            <ul class="space-y-3 text-xs uppercase tracking-wider">
+                <li><a href="institucional.html" class="text-gold font-bold">Nuestra Firma</a></li>
+                <li><a href="#institutional-profile" class="hover:text-text-light transition-colors">Misión y Visión</a></li>
+                <li><a href="noticias.html" class="hover:text-text-light transition-colors">Noticias</a></li>
+                <li><a href="#tos" class="hover:text-text-light transition-colors">Términos de Servicio</a></li>
+                <li><a href="#privacy" class="hover:text-text-light transition-colors">Política de Privacidad</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-xs font-bold text-gold mb-6 uppercase tracking-widest">Ubicación</h4>
+            <p class="text-xs leading-relaxed mb-4">Oficina 1110, Edificio Caja Agraria<br>Valledupar, Cesar, Colombia</p>
+            <p class="text-xs mb-2"><a href="tel:+573246111924" class="hover:text-text-light transition-colors">+57 324 611 1924</a></p>
+            <p class="text-xs"><a href="mailto:deinerdacidg123456@gmail.com" class="hover:text-text-light transition-colors">deinerdacidg123456@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="border-t border-white/5 max-w-site mx-auto px-8 py-6 text-center">
+        <p class="text-xs text-text-light/30 uppercase tracking-widest">© 2026 DG Abogados y Asociados. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<a href="https://wa.me/573246111924" class="fixed bottom-8 right-8 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all z-50" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.71 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+    document.getElementById('mobile-btn').addEventListener('click',()=>document.getElementById('mobile-menu').classList.toggle('hidden'));
+    window.addEventListener('scroll',()=>{
+        const nav=document.getElementById('navbar');
+        if(window.scrollY>50){nav.classList.add('py-2');nav.classList.remove('py-4');}
+        else{nav.classList.remove('py-2');nav.classList.add('py-4');}
+    });
+</script>
+</body>
+</html>
